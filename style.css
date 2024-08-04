@@ -129,15 +129,6 @@ button.active {
 }
 
 
-
-.isotope-wrapper {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  margin: auto;
-}
-
 .isotope-toolbar span {
   text-transform: capitalize;
   display: inline-block;
@@ -275,11 +266,45 @@ figure.hover:after {
 
 footer {
   background-color: #006A53;
-  padding: 100px 0;
+  padding:70px 0 20px 0;
 }
-
+.footer-logo{
+  border-radius: 100%;
+  width: 200px;
+}
+.isotope-toolbar-btn img{
+  height: 50px;
+}
 /* .gridback{
   display: block; 
     width: 100%;   
   background-color: red;
 } */
+
+@media only screen and (max-width:767px){
+.about-img {
+  outline: 4px solid var(--primary);
+  padding: 4px;
+}
+body{
+  border-top: 10px solid #006A53;
+}
+
+.main-heading {
+  font-size: 35px;
+}
+
+.secondry-heading {
+  font-size: 24px;
+}
+
+.motto {
+  font-size: 16px;
+}
+footer{
+  padding-top: 50px;
+}
+.footer-logo{
+  width: 200px;
+}
+}
