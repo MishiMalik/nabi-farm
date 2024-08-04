@@ -4,6 +4,7 @@
 imagesLoaded(".isotope-box", function() {
   var $box = $(".isotope-box").isotope({
     itemSelector: ".isotope-item",
+      filter: '[data-type="Brinjals"]'
   });
 
   // filter functions

@@ -377,6 +377,15 @@ footer{
   padding-top: 50px;
 }
 .footer-logo{
-  width: 200px;
+  width: 150px;
+}
+.logo{
+  width: 180px;
+}
+.isotope-toolbar-btn img{
+  height: 35px;
+}
+.isotope-toolbar span{
+  font-size: 12px;
 }
 }
