@@ -75,13 +75,6 @@ body {
   transition: 1s;
 }
 
-.section-heading h2:hover {
-  font-size: 32px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #006A53;
-  transition: 1s;
-}
 
 .section-heading .line-dec {
   width: 60px;
