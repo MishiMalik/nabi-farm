@@ -26,18 +26,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div>
-                            <a href="mailto:nabifarmske@gmail.com" class="d-flex align-items-center">
-                                <i class="bi bi-envelope-fill me-2"></i>
-                                nabifarmske@gmail.com
-                            </a>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                                <a href="mailto:nabifarmske@gmail.com" class="d-flex align-items-center">
+                                    <i class="bi bi-envelope-fill me-2"></i>
+                                    nabifarmske@gmail.com
+                                </a>
+                            </div>
+                            <div class="ms-3">
+                                <a href="tel:+254799230881" class="d-flex align-items-center">
+                                    <i class="bi bi-telephone-fill me-2"></i>
+                                    +254799230881
+                                </a>
+                            </div>
                         </div>
-                        <div class="ms-3">
-                            <a href="tel:+254799230881" class="d-flex align-items-center">
-                                <i class="bi bi-telephone-fill me-2"></i>
-                                +254799230881
-                            </a>
+                        <div>
+                            <button type="button" class="buy ms-auto " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -650,7 +656,7 @@
                     <h3 class="motto text-white text-center">
                         Delivering eco-friendly farm produce for all
                     </h3>
-                    <div class="d-flex justify-content-center align-items-center mt-4 flex-wrap" >
+                    <div class="d-flex justify-content-center align-items-center mt-4 flex-wrap">
                         <div>
                             <a href="mailto:nabifarmske@gmail.com" class="d-flex align-items-center text-white">
                                 <i class="bi bi-envelope-fill me-2"></i>
@@ -670,6 +676,78 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Shipping Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <form class="row">
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">First Name</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">Email</label>
+                                <input type="email" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">Address</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">Country</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">Zip Code</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">City</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <label for="" class="form-label">State</label>
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Description</label>
+                                    <textarea class="form-control" name="" id="" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                        <hr>
+                        <button class="button">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
