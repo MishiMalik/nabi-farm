@@ -44,12 +44,16 @@ body {
 }
 
 .about-img {
-  outline: 15px solid var(--primary);
-  padding: 10px;
+  outline: 7px solid var(--primary);
+  padding: 7px;
 }
 
 
 
+.about-img2 {
+  outline: 4px solid var(--primary);
+  padding: 4px;
+}
 /*         section                 */
 /* .section {
     color: #fff;
