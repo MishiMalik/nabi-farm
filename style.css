@@ -46,6 +46,9 @@ body {
 .about-img {
   outline: 7px solid var(--primary);
   padding: 7px;
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
 }
 
 
@@ -53,6 +56,9 @@ body {
 .about-img2 {
   outline: 4px solid var(--primary);
   padding: 4px;
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
 }
 /*         section                 */
 /* .section {
@@ -358,6 +364,24 @@ footer {
 }
 
 @media only screen and (max-width:767px){
+  
+.about-img {
+  outline: 7px solid var(--primary);
+  padding: 7px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+.about-img2 {
+  outline: 4px solid var(--primary);
+  padding: 4px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
 .about-img {
   outline: 4px solid var(--primary);
   padding: 4px;
